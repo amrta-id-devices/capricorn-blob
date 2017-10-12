@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="los"
+           fetch="https://github.com/LineageOS" />
+  <default remote="los"
+           revision="refs/heads/cm-14.1"
+           sync-c="true"
+           sync-j="16" />
+  <project path="android/vendor/cm" name="android_vendor_cm" >
+  <project path="android/device/xiaomi/capricorn" name="android_device_xiaomi_capricorn"  >
+  <project path="android/device/xiaomi/msm8996-common" name="android_device_xiaomi_msm8996-common"  >
+</manifest>
